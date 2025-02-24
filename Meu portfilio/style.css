@@ -1,18 +1,88 @@
 * {
 
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 
-   }
+}
 
-   body{ 
+body {
 
-    height: 100vh;
-      background-color: rgb(246, 206, 176);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      margin: 0;
-      color: rgb(94, 65, 53);
+height: 100vh;
+background-color: rgb(174, 14, 78);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+color: rgb(231, 61, 163);
 
-   }
+}
+
+.cabecalho {
+
+padding: 2% 0% 0% 15%;
+
+}
+
+.cabecalho-menu {
+
+    display: flex;
+    gap: 90px;
+}
+
+.cabecalho-menu-links {
+
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(193, 42, 145);
+  text-decoration: none;
+
+}
+
+.titulo-destaque {
+
+   color: rgb(255, 105, 205);
+    
+}
+
+.conteudo {
+
+  height: auto;
+  flex-direction: column;
+  margin: 13%;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  margin-bottom: 15px;
+
+}
+
+.apresentacao-conteudo {
+
+    width: 615;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 40;
+    order: 2;
+
+}
+
+.apresentacao-conteudo-titulo {
+
+ font-size: 50px;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ text-align: justify;
+
+}
+
+.apresentacao-conteudo-paragrafo {
+
+font-size: 18px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: justify;
+
+}
