@@ -89,14 +89,14 @@ text-align: justify;
 
 .botao1 {
     background-color: #150a05;
-    color: #e4bf42;
+    color: #e4d142;
     width: 500px;
     height: 80px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #ff9d00;
+    border: 2px solid #ff9900;
     border-radius: 50px;
     font-size: 36px;
     padding: 15px 0;
@@ -115,7 +115,7 @@ text-align: justify;
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, transparent, #ffc400);
+    background: linear-gradient(45deg, transparent, #ffe600);
     transition: 0.5s;
 }
 
@@ -124,6 +124,50 @@ text-align: justify;
 }
 
 .botao1 i {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+font-size: 60px;
+
+}
+.botao2 {
+    background-color: #150a05;
+    color: #e31717;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ff4000;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #f12536);
+    transition: 0.5s;
+}
+
+.botao2:hover::before {
+    left: 100%;
+}
+
+.botao2 i {
 position: absolute;
 left: 50%;
 top: 50%;
